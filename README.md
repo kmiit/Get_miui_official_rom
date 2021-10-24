@@ -1,0 +1,2 @@
+# Get_miui_official_rom
+使用Python编写的一个简单的MIUI官方ROM下载器
