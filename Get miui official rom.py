@@ -5,7 +5,7 @@ except:
  os.system("pip install tqdm")
 
 def GET_PHONE_LIST():
- print("If it appears \"list index out of range\", please try again")
+ print("If it appears any error, please try again")
  MAIN = "https://hub.fastgit.org/mooseIre/update_miui_ota/blob/master/README.md"
  print("\nGetting supported phone list...\n")
  a = requests.get(MAIN)
