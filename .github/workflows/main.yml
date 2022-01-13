@@ -25,7 +25,9 @@ jobs:
     - name: unzip the ROM
       run: |
        cd ~
-       tar xvf rom.tgz
+       gunzip *.tgz
+       tar c *.tar
+       tar xvf *.tar
        tree
    
 
